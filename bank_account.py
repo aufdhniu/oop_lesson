@@ -11,7 +11,7 @@ def create_account(num, type, name, init_balance):
         account_database.append(account)
     else:
         print("Account", num, "already exists")
-
+"Weed"
 def delete_account(num):
     index = search_account_db(num)
     if index != -1:
