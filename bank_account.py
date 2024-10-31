@@ -24,7 +24,12 @@ def search_account_db(num):
         if account_database[i]["account_number"] == num:
             return i
     return -1
-
+"""
+This party never stops!
+Time is dead and meaning has no meaning.
+Existence is up side down and I reign supreme!
+Welcome, one and all, TO WEIRDMAGEDDON!
+"""
 def deposit(account_num, amount):
     index = search_account_db(account_num)
     if index != -1:
