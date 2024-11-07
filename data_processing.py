@@ -65,6 +65,39 @@ print()
 
 # Let's write code to
 # - print the average temperature for all the cities in Italy
+temps = []
+my_country = 'Italy'
+for city in cities:
+    if city['country'] == my_country:
+        temps.append(float(city['temperature']))
+print("The average temperature for all the cities in Italy")
+print(sum(temps)/len(temps))
+
 # - print the average temperature for all the cities in Sweden
+temps = []
+my_country = 'Sweden'
+for city in cities:
+    if city['country'] == my_country:
+        temps.append(float(city['temperature']))
+print("The average temperature for all the cities in Sweden")
+print(sum(temps)/len(temps))
+
 # - print the min temperature for all the cities in Italy
+temps = []
+my_country = 'Italy'
+for city in cities:
+    if city['country'] == my_country:
+        temps.append(float(city['temperature']))
+print("The min temperature of all the cities in", my_country, ":")
+print(min(temps))
+print()
+
 # - print the max temperature for all the cities in Sweden
+temps = []
+my_country = 'Sweden'
+for city in cities:
+    if city['country'] == my_country:
+        temps.append(float(city['temperature']))
+print("The min temperature of all the cities in", my_country, ":")
+print(max(temps))
+print()
